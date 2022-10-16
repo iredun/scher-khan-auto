@@ -1,4 +1,4 @@
-"""Sensor platform for integration_blueprint."""
+"""Sensor platform for scher_khan_auto."""
 from homeassistant.components.sensor import SensorEntity
 
 from .const import DEFAULT_NAME, DOMAIN, ICON, SENSOR
@@ -12,7 +12,7 @@ async def async_setup_entry(hass, entry, async_add_devices):
 
 
 class IntegrationBlueprintSensor(IntegrationBlueprintEntity, SensorEntity):
-    """integration_blueprint Sensor class."""
+    """scher_khan_auto Sensor class."""
 
     @property
     def name(self):

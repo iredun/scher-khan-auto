@@ -1,1 +1,1 @@
-"""Tests for integration_blueprint integration."""
+"""Tests for scher_khan_auto integration."""

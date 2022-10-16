@@ -1,10 +1,10 @@
-"""Tests for integration_blueprint api."""
+"""Tests for scher_khan_auto api."""
 import asyncio
 
 import aiohttp
 from homeassistant.helpers.aiohttp_client import async_get_clientsession
 
-from custom_components.integration_blueprint.api import IntegrationBlueprintApiClient
+from custom_components.scher_khan_auto.api import IntegrationBlueprintApiClient
 
 
 async def test_api(hass, aioclient_mock, caplog):

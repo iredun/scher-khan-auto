@@ -1,9 +1,9 @@
 {
-  "domain": "integration_blueprint",
-  "name": "Integration blueprint",
-  "documentation": "https://github.com/custom-components/integration_blueprint",
+  "domain": "scher_khan_auto",
+  "name": "Sher-khan Auto",
+  "documentation": "https://github.com/iredun/scher_khan_auto",
   "iot_class": "cloud_polling",
-  "issue_tracker": "https://github.com/custom-components/integration_blueprint/issues",
+  "issue_tracker": "https://github.com/iredun/scher_khan_auto/issues",
   "version": "0.0.0",
   "config_flow": true,
   "codeowners": [
