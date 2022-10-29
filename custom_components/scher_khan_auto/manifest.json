@@ -1,0 +1,12 @@
+{
+  "domain": "scher_khan_auto",
+  "name": "Scher-khan Auto",
+  "documentation": "https://github.com/iredun/scher-khan-auto",
+  "issue_tracker": "https://github.com/iredun/scher-khan-auto/issues",
+  "dependencies": [],
+  "config_flow": true,
+  "codeowners": ["@iredun"],
+  "requirements": [],
+  "iot_class": "cloud_polling",
+  "version": "0.0.1"
+}

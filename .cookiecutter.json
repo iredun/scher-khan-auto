@@ -1,0 +1,11 @@
+{
+  "_output_dir": "D:\\Projects\\Python\\HAS",
+  "_template": "git@github.com:oncleben31/cookiecutter-homeassistant-custom-component.git",
+  "class_name_prefix": "ScherKhanAuto",
+  "domain_name": "scher_khan_auto",
+  "friendly_name": "Scher-khan Auto",
+  "github_user": "iredun",
+  "project_name": "scher-khan-auto",
+  "test_suite": "yes",
+  "version": "0.0.0"
+}
