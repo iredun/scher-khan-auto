@@ -9,7 +9,6 @@
 
 [![hacs][hacsbadge]][hacs]
 [![Project Maintenance][maintenance-shield]][user_profile]
-[![BuyMeCoffee][buymecoffeebadge]][buymecoffee]
 
 **This component will set up the following platforms.**
 
@@ -19,7 +18,7 @@
 | `sensor`        | Show info from Scher-khan Auto API. |
 | `switch`        | Switch something `True` or `False`.                                       |
 
-![example][exampleimg]
+![logo](scher_khan_auto.png)
 
 ## Installation
 
@@ -31,29 +30,6 @@
 6. Restart Home Assistant
 7. In the HA UI go to "Configuration" -> "Integrations" click "+" and search for "Scher-khan Auto"
 
-Using your HA configuration directory (folder) as a starting point you should now also have this:
-
-```text
-custom_components/scher_khan_auto/translations/en.json
-custom_components/scher_khan_auto/translations/fr.json
-custom_components/scher_khan_auto/translations/nb.json
-custom_components/scher_khan_auto/translations/sensor.en.json
-custom_components/scher_khan_auto/translations/sensor.fr.json
-custom_components/scher_khan_auto/translations/sensor.nb.json
-custom_components/scher_khan_auto/translations/sensor.nb.json
-custom_components/scher_khan_auto/__init__.py
-custom_components/scher_khan_auto/api.py
-custom_components/scher_khan_auto/binary_sensor.py
-custom_components/scher_khan_auto/config_flow.py
-custom_components/scher_khan_auto/const.py
-custom_components/scher_khan_auto/manifest.json
-custom_components/scher_khan_auto/sensor.py
-custom_components/scher_khan_auto/switch.py
-```
-
-## Configuration is done in the UI
-
-<!---->
 
 ## Contributions are welcome!
 
@@ -78,7 +54,6 @@ Code template was mainly taken from [@Ludeeus](https://github.com/ludeeus)'s [in
 [hacsbadge]: https://img.shields.io/badge/HACS-Custom-orange.svg?style=for-the-badge
 [discord]: https://discord.gg/Qa5fW2R
 [discord-shield]: https://img.shields.io/discord/330944238910963714.svg?style=for-the-badge
-[exampleimg]: example.png
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg?style=for-the-badge
 [forum]: https://community.home-assistant.io/
 [license-shield]: https://img.shields.io/github/license/iredun/scher-khan-auto.svg?style=for-the-badge
