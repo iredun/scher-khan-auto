@@ -1,11 +1,12 @@
 // See https://aka.ms/vscode-remote/devcontainer.json for format details.
 {
-	"image": "ghcr.io/ludeeus/devcontainer/integration:stable",
-	"name": "Blueprint integration development",
+	"image": "ghcr.io/ludeeus/devcontainer/integration:latest",
+	"name": "ScherknahAuto integration development",
 	"context": "..",
 	"appPort": [
-		"9123:8123"
+		"8123:8123"
 	],
+	"onCreateCommand": "ln -s ${containerWorkspaceFolder}/.devcontainer/configuration.yaml /config/configuration.yaml",
 	"postCreateCommand": "container install",
 	"extensions": [
 		"ms-python.python",

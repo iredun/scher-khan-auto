@@ -4,6 +4,7 @@ Custom integration to integrate scher_khan_auto with Home Assistant.
 For more details about this integration, please refer to
 https://github.com/iredun/scher_khan_auto
 """
+
 import asyncio
 from datetime import timedelta
 import logging
